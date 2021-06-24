@@ -1,0 +1,159 @@
+body{
+    background-color: rgb(39, 44, 44);
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:#23f77b;
+    text-decoration: none;
+}
+
+p{
+    margin: 30px 0px;
+}
+
+button{
+    font-size: 25px;
+    padding: 10px 15px;
+    margin: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer; 
+    
+    
+}
+
+.pivo{
+    background-color: yellow;     
+       
+}
+.pivo:hover{
+    background-color: #f1860b;
+    color: white;
+}
+
+.vodky{
+    background-color: rgb(168, 168, 159);
+    
+}
+.vodky:hover{
+    background-color: #25211b;
+    color: white;
+}
+
+.tmave{
+    background-color: rgb(110, 47, 6);
+    color: white;
+}
+.tmave:hover{
+    background-color: #eedf14;
+    color: black;
+}
+
+.vinoC{
+    background-color:red;
+}
+.vinoC:hover{
+    background-color: #9c2838;
+    color: white;
+}
+.vinoB{
+    background-color:rgb(211, 230, 129);
+}
+.vinoB:hover{
+    background-color: #e6dadc;
+    color: rgb(0, 0, 0);
+}
+
+.kofola{
+    background-color:black;
+    border-color:white;
+    border-width: 3px;
+    color: white;
+}
+.kofola:hover{
+    background-color:white;
+    color: black;
+}
+
+.dzus{
+    background-color:rgb(236, 138, 10);
+}
+.dzus:hover{
+    background-color: #ec2a5a;
+    color: rgb(0, 0, 0);
+}
+
+.voda{
+    background-color:rgb(245, 244, 243);
+}
+.voda:hover{
+    background-color: #5ae2d7;
+    color: rgb(0, 0, 0);
+}
+
+
+
+a {
+    color:#23f77b;
+    text-decoration: none;
+}
+
+.dole, .hore{
+    color:#eedf14;
+    background-color: rgb(157, 26, 184);
+    width: 60px;
+    padding: 10px 5px 10px 15px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 30px;
+    
+}
+
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    margin: 10px 0px 20px 0px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #26e083;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+
+.display{
+    padding: 10px 15px;
+    }
